@@ -59,3 +59,41 @@ li{
 i{
     color: #666666;
 }
+
+#inputs-section{
+    padding: 20px;
+    overflow-y: scroll;
+}
+
+label{
+    display: block;
+    margin: 15px 0px;
+}
+
+input, textarea{
+    width: 75%;
+    border-radius: 8px;
+    padding: 5px;
+    font-size: 1.1rem;
+    border: #666666 solid 1px;
+    margin-left: 5px;
+}
+
+button{
+    background-color: #42429e;
+    color: white;
+    font-size: 1.1rem;
+    border-radius: 15px;
+    padding: 10px;
+    border: #35357e solid 3px;
+    font-weight: 900;
+    cursor: pointer;
+    margin-right: 7px;
+    margin-bottom: 7px;
+}
+
+.delete{
+    background-color: white;
+    border: none;
+    color: black;
+}

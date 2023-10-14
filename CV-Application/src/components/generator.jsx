@@ -87,8 +87,7 @@ function Generator(){
                             studies.map(study => {
                                 return (
                                     <li key={study.id}>
-                                        <p>{study.school}</p>
-                                        <button onClick={() => handleDeleteStudy(study)}>Eliminar</button>
+                                        <p>{study.school} <button onClick={() => handleDeleteStudy(study)} className="delete">Delete</button></p>
                                     </li>
                                 )
                             })
@@ -128,8 +127,8 @@ function Generator(){
                             jobs.map(job => {
                                 return (
                                     <li key={job.id}>
-                                        <p>{job.company}</p>
-                                        <button onClick={() => handleDeleteJob(job)}>Delete</button>
+                                        <p>{job.company} <button onClick={() => handleDeleteJob(job)} className="delete">Delete</button></p>
+                                        
                                     </li>
                                 )
                             })
